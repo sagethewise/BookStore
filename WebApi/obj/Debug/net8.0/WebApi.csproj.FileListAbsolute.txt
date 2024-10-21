@@ -43,3 +43,5 @@ C:\Users\Renee\Desktop\Web_Designing\BookStore\WebApi\obj\Debug\net8.0\refint\We
 C:\Users\Renee\Desktop\Web_Designing\BookStore\WebApi\obj\Debug\net8.0\WebApi.pdb
 C:\Users\Renee\Desktop\Web_Designing\BookStore\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\Users\Renee\Desktop\Web_Designing\BookStore\WebApi\obj\Debug\net8.0\ref\WebApi.dll
+C:\Users\Renee\Desktop\Web_Designing\BookStore\WebApi\obj\Debug\net8.0\WebApi.sourcelink.json
+C:\Users\Renee\Desktop\Web_Designing\BookStore\WebApi\bin\Debug\net8.0\AutoMapper.dll

@@ -3,6 +3,8 @@ using Microsoft.Extensions.DependencyInjection;
 using WebApi;
 using WebApi.DBOperations;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +17,7 @@ builder.Services.AddSwaggerGen(c =>
 
 // Eğer Entity Framework veya benzer bir ORM kullanıyorsan, burada BookContext gibi bir veritabanı bağlamı ekleyebilirsin.
 builder.Services.AddDbContext<BookStoreDbContext>(options => options.UseInMemoryDatabase("BookStore"));
-
+builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 var app = builder.Build();
 
 // Veritabanını başlatmak için servis sağlayıcı oluştur

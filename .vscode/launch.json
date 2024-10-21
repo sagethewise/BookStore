@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": ".NET 8 Console Launch",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build",
+        "program": "${workspaceFolder}/bin/Debug/net8.0/WebApi.dll",
+        "args": [],  // Buraya konsol uygulamasına vereceğiniz argümanları ekleyebilirsiniz
+        "cwd": "${workspaceFolder}",
+        "stopAtEntry": false, // true yaparsanız uygulama başlarken ilk satırda durur
+        "console": "integratedTerminal", // Bu, entegre terminalde konsol çıktısını gösterir
+        "internalConsoleOptions": "neverOpen",
+        "env": {
+          "ASPNETCORE_ENVIRONMENT": "Development" // Çevre değişkenleri ekleyebilirsiniz
+        },
+        "sourceFileMap": {
+          "/Views": "${workspaceFolder}/Views"
+        }
+      }
+    ]
+  }
+  
